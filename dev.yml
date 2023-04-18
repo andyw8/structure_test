@@ -1,0 +1,12 @@
+name: structure-test
+
+type: rails
+
+up:
+  - homebrew:
+      - mysql-client@5.7:
+          or: [mysql@5.7]
+          conflicts: [mysql-connector-c, mysql, mysql-client]
+    # - another_package
+  - ruby: 3.1.1
+  - bundler

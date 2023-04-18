@@ -237,7 +237,6 @@ DEPENDENCIES
   rails (~> 7.0.4, >= 7.0.4.2)
   rails_ruby_lsp!
   redis (~> 4.0)
-  ruby-lsp
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
